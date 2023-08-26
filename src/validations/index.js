@@ -1,1 +1,10 @@
 module.exports.hotelValidation = require("./hotelValidation/hotel.validation");
+module.exports.busValidation = require("./busValidation/bus.validation");
+module.exports.groceryValidation = require("./groceryValidation/grocery.validation");
+module.exports.jewelleryValidation = require("./jewelleryValidaion/jewellery.validation");
+module.exports.movieValidation = require("./movieValidation/movie.validation");
+module.exports.musicValidation = require("./musicValidation/music.validation");
+module.exports.pharmaValidation = require("./pharmaValidation/pharma.validation");
+module.exports.schoolValidation = require("./schoolValidation/school.validation");
+module.exports.stationeryValidation = require("./stationaryValidation/stationery.validation");
+module,exports.travelValidation = require("./travelValidation/travel.validation");

@@ -31,7 +31,7 @@ const travelSchema = new mongoose.Schema(
             type: String,
             trim: true,
         },
-        close_point: {
+        end_point: {
             type: String,
             trim: true,
         },
@@ -47,4 +47,4 @@ const travelSchema = new mongoose.Schema(
 );
 
 const Travel = mongoose.model("travel",travelSchema);
-module.exports = Hotel;
+module.exports = Travel;
