@@ -1,0 +1,1 @@
+module.exports.hotelValidation = require("./hotelValidation/hotel.validation");
